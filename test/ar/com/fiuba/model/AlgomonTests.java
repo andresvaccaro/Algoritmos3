@@ -232,8 +232,8 @@ public class AlgomonTests {
 		charmander.atacar(bulbasaur, fogonazo);
 		charmander.atacar(bulbasaur, fogonazo);
 		
-		assertEquals(0d,fogonazo.getCantidadDeAtaques(),0.000d);
-		
+		assertEquals(0d,fogonazo.getCantidad(),0.000d);
+			
 	}
 	
 	
@@ -252,7 +252,7 @@ public class AlgomonTests {
 		charmander.atacar(bulbasaur, fogonazo);
 		
 		
-		assertEquals(0d,fogonazo.getCantidadDeAtaques(),0.000d);
+		assertEquals(0d,fogonazo.getCantidad(),0.000d);
 		
 	}
 	
