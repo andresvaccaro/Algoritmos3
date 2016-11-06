@@ -35,5 +35,14 @@ public class AtaquesTests {
 		assertEquals(8d,cañon.getCantidad(),0.00d);
 		
 	}
+	
+	@Test
+	public void test_AtaqueDeChupavidas(){
+		
+		Chupavidas chupavida=new Chupavidas();
+		
+		assertEquals(15d,chupavida.getPotencia(),0.00d);
+		assertEquals(8d,chupavida.getCantidad(),0.00d);
+	}
 
 }
